@@ -1,14 +1,14 @@
 import React from "react";
-import styles from "../../components/cardfilme/cardfilme.module.css"
+import styles from "../../components/cardfilme/cardfilme.module.css";
 
-export default function CardFilme({titulo,imagem,descricao}){
-    return(
-        <>
-        <div>
-            <img src={imagem} alt={titulo} />
-             <h2>{titulo}</h2>
-            <p>{descricao}</p>
-        </div>
-        </>
-    )
+export default function CardFilme({ titulo, imagem, descricao }) {
+  return (
+    <>
+      <div>
+        <h2>{titulo}</h2>
+        <img src={imagem} alt={titulo} />
+        <p>{descricao}</p>
+      </div>
+    </>
+  );
 }

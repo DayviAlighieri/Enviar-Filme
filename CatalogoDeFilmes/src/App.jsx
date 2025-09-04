@@ -1,10 +1,10 @@
 import React from "react"
-import FormularioFilme from "./components/FormularioFilme/FomularioFilme"
+import Catalogo from "./pages/catalogo/Catalogo"
 export default function App() {
 
   return (
     <>
-      <FormularioFilme/>
+      <Catalogo/>
     </>
   )
 }
